@@ -25,7 +25,8 @@
 conda create -n dive-into-dl python=3.9
 conda activate dive-into-dl
 
-pip install torch torchvision
+pip install torch==1.12.0
+pip install torchvision==0.13.0
 pip install d2l==0.17.6
 ```
 
@@ -33,5 +34,3 @@ pip install d2l==0.17.6
 
 ## 参考资料
 - D2L 官方网站：https://d2l.ai/
-- PyTorch 官方文档：https://pytorch.org/
-- Jupyter 官方文档：https://jupyter.org/
